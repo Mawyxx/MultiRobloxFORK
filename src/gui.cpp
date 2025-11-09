@@ -69,16 +69,16 @@ namespace
     constexpr wchar_t kWindowTitle[] = L"MultiRoblox";
     constexpr wchar_t kTitleCaption[] = L"MultiRoblox 0.0.3";
     constexpr wchar_t kInstructions[] =
-        L"Thanks for using MultiRoblox!\r\n"
+        L"Спасибо, что выбрали MultiRobloxFORK!\r\n"
         L"\r\n"
-        L"In case if you're wondering, you must open\r\n"
-        L"MultiRoblox FIRST before opening multiple ROBLOX\r\n"
-        L"sessions. Once you close MultiRoblox, all but one\r\n"
-        L"ROBLOX instance will close.\r\n"
+        L"Сначала запустите MultiRobloxFORK, затем откройте Roblox\r\n"
+        L"столько раз, сколько нужно. Пока окно MultiRobloxFORK\r\n"
+        L"активно, все сессии останутся запущенными.\r\n"
+        L"Как только вы закроете MultiRobloxFORK,\r\n"
+        L"автоматически завершатся все экземпляры Roblox,\r\n"
+        L"кроме одного.\r\n"
         L"\r\n"
-        L"Discord: https://discord.gg/g2Jgw8Z6Rb\r\n"
-        L"WeAreDevs: https://forum.wearedevs.net/t/29695\r\n"
-        L"GitHub: https://github.com/Dashbloxx/MultiRoblox\r\n";
+        L"GitHub: https://github.com/Mawyxx/MultiRobloxFORK\r\n";
 
     constexpr const wchar_t kMutexName[] = L"ROBLOX_singletonEvent";
 
