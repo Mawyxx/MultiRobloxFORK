@@ -67,7 +67,7 @@ namespace
 {
     constexpr wchar_t kWindowClassName[] = L"MULTIROBLOX_CLASS";
     constexpr wchar_t kWindowTitle[] = L"MultiRoblox";
-    constexpr wchar_t kTitleCaption[] = L"MultiRoblox 0.0.3";
+    constexpr wchar_t kTitleCaption[] = L"MultiRobloxFORK v0.1.0";
     constexpr wchar_t kInstructions[] =
         L"Спасибо, что выбрали MultiRobloxFORK!\r\n"
         L"\r\n"
