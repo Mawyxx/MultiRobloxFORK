@@ -71,12 +71,7 @@ namespace
     constexpr wchar_t kInstructions[] =
         L"Спасибо, что выбрали MultiRobloxFORK!\r\n"
         L"\r\n"
-        L"Сначала запустите MultiRobloxFORK, затем откройте Roblox\r\n"
-        L"столько раз, сколько нужно. Пока окно MultiRobloxFORK\r\n"
-        L"активно, все сессии останутся запущенными.\r\n"
-        L"Как только вы закроете MultiRobloxFORK,\r\n"
-        L"автоматически завершатся все экземпляры Roblox,\r\n"
-        L"кроме одного.\r\n"
+        L"Запускайте MultiRobloxFORK перед Roblox. Пока окно программы открыто, все сессии Roblox остаются активны. После закрытия MultiRobloxFORK автоматически завершатся все экземпляры Roblox, кроме одного.\r\n"
         L"\r\n"
         L"GitHub: https://github.com/Mawyxx/MultiRobloxFORK\r\n";
 
