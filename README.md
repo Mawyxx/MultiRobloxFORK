@@ -3,6 +3,8 @@
 ## О проекте
 MultiRoblox — лёгкая WinAPI-утилита, позволяющая запускать несколько экземпляров Roblox одновременно. Этот форк переписан на C++ и собирается через CMake, сохраняя исходный функционал.
 
+- Оригинальный репозиторий: [Dashbloxx/MultiRoblox](https://github.com/Dashbloxx/MultiRoblox)
+
 ## Сборка
 1. Установите [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/) с компонентами C++ и CMake.
 2. Клонируйте репозиторий и выполните команды:
