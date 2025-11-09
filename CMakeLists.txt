@@ -7,7 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 if(MSVC)
     add_compile_definitions(UNICODE _UNICODE)
-    add_compile_options(/W4 /permissive-)
+    add_compile_options(/W4 /permissive- /utf-8)
 else()
     message(FATAL_ERROR "MultiRoblox поддерживает только компилятор MSVC на Windows.")
 endif()
