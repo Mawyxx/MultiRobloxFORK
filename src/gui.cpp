@@ -1,6 +1,5 @@
 #include "gui.hpp"
 
-#include <string_view>
 #include <utility>
 
 namespace
@@ -81,7 +80,7 @@ namespace
         L"WeAreDevs: https://forum.wearedevs.net/t/29695\r\n"
         L"GitHub: https://github.com/Dashbloxx/MultiRoblox\r\n";
 
-    constexpr std::wstring_view kMutexName = L"ROBLOX_singletonEvent";
+    constexpr const wchar_t kMutexName[] = L"ROBLOX_singletonEvent";
 
     HWND g_mainWindow = nullptr;
     HWND g_titleLabel = nullptr;
@@ -136,7 +135,7 @@ namespace
 
 int RunGui(HINSTANCE instance, int showCommand)
 {
-    UniqueHandle mutexHandle(CreateMutexW(nullptr, TRUE, kMutexName.data()));
+    UniqueHandle mutexHandle(CreateMutexW(nullptr, TRUE, kMutexName));
     if (!mutexHandle)
     {
         MessageBoxW(nullptr, L"Не удалось создать или открыть мьютекс ROBLOX.", kWindowTitle, MB_ICONERROR | MB_OK);
